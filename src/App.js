@@ -1,8 +1,9 @@
 import './App.css';
+
 function App() {
   return (
     <div className="App">
-      <h1>srinu</h1>
+      <h1>srinivas</h1>
     </div>
   );
 }
