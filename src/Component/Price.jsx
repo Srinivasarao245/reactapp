@@ -1,7 +1,7 @@
 import React from "react"
 function Price(){
     return(
-        <div>
+        <div className="text-info">
             <h1>Price Details</h1>
         </div>
     )

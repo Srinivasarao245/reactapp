@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.d1{
+  background-image: url("https://learnertrip.com/wp-content/uploads/2023/02/best-ai-generate-images.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+
+}
