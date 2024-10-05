@@ -15,6 +15,8 @@ import Aboutus from './Component/Aboutus';
 import Features from './Component/Features';
 import Faqs from './Component/Faqs';
 import Countries from './Component/Countries';
+import CountryDetails from './Component/CountryDetails';
+import { Outlet } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
@@ -39,7 +41,11 @@ const router = createBrowserRouter([
       },
       {
         path:"/countries",
-        element:<Countries></Countries>
+        element:<Countries></Countries>,
+        children:[{
+          path:"/countries/countryDetails/:bname",
+          element:<CountryDetails></CountryDetails>
+        }]
       },
       {
         path:"/faqs",
