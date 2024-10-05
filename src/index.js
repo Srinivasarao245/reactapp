@@ -14,6 +14,7 @@ import Price from './Component/Price';
 import Aboutus from './Component/Aboutus';
 import Features from './Component/Features';
 import Faqs from './Component/Faqs';
+import Countries from './Component/Countries';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path:"/feature",
         element:<Features></Features>
+      },
+      {
+        path:"/countries",
+        element:<Countries></Countries>
       },
       {
         path:"/faqs",
