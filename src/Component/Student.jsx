@@ -70,4 +70,4 @@ function Student(){
         </form>
     </div>
     ) }
-export default Student
+export default Student;

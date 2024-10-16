@@ -18,7 +18,8 @@ function Header(){
         <li className="nav-item btn btn-hover-secondary"><Link to="/countries" className="nav-link text-danger-emphasis">Countries</Link></li>
         <li className="nav-item btn btn-hover-secondary"><Link to="/studentdetails" className="nav-link text-danger-emphasis">Student</Link></li> &nbsp;&nbsp;
         <li className="nav-item btn btn-hover-secondary"><Link to="/employeedetails" className="nav-link text-danger-emphasis">Employee</Link></li> &nbsp;&nbsp;
-      </ul>
+        <li className="nav-item btn btn-hover-secondary"><Link to="/counter" className="nav-link text-danger-emphasis">Counter</Link></li>  
+    </ul>
     </header>
   </div>
         </div>
