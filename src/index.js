@@ -20,7 +20,7 @@ import CountryDetails from './Component/CountryDetails';
 import { Outlet } from 'react-router-dom';
 import Employee from './Component/Employee';
 import { Provider } from 'react-redux';
-import store from './store/Store';
+import Store from './store/Store';
 
 const router = createBrowserRouter([
   {
