@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  createBrowserRouter,
+  createBrowserRouter, 
   RouterProvider,
   Route,
   Link,
@@ -15,8 +15,10 @@ import Aboutus from './Component/Aboutus';
 import Features from './Component/Features';
 import Faqs from './Component/Faqs';
 import Countries from './Component/Countries';
+import Student from './Component/Student';
 import CountryDetails from './Component/CountryDetails';
 import { Outlet } from 'react-router-dom';
+import Employee from './Component/Employee';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
       {
         path:"/feature",
         element:<Features></Features>
+      },
+      {
+        path:"/studentdetails",
+        element:<Student></Student>
+      },
+      {
+        path:"/employeedetails",
+        element:<Employee></Employee>
       },
       {
         path:"/countries",

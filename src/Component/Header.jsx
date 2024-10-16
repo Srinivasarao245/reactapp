@@ -10,12 +10,14 @@ function Header(){
         <span className="fs-4">Edupoly</span>
       </a>
       <ul className="nav nav-pills ">
-        <li className="nav-item btn btn-hover-secondary"><Link to="/home" className="nav-link text-danger-emphasis" aria-current="page">Home</Link></li>
-        <li className="nav-item btn btn-hover-secondary"><Link to="/feature" className="nav-link text-danger-emphasis">Features</Link></li>
-        <li className="nav-item btn btn-hover-secondary"><Link to="/price" className="nav-link text-danger-emphasis">Price</Link></li>
-        <li className="nav-item btn btn-hover-secondary"><Link to="/faqs" className="nav-link text-danger-emphasis">FAQs</Link></li>
-        <li className="nav-item btn btn-hover-secondary"><Link to="/aboutus" className="nav-link text-danger-emphasis">About</Link></li>
+        <li className="nav-item btn btn-hover-secondary"><Link to="/home" className="nav-link text-danger-emphasis" aria-current="page">Home</Link></li> &nbsp;&nbsp;
+        <li className="nav-item btn btn-hover-secondary"><Link to="/feature" className="nav-link text-danger-emphasis">Features</Link></li> &nbsp;&nbsp;
+        <li className="nav-item btn btn-hover-secondary"><Link to="/price" className="nav-link text-danger-emphasis">Price</Link></li> &nbsp;&nbsp;
+        <li className="nav-item btn btn-hover-secondary"><Link to="/faqs" className="nav-link text-danger-emphasis">FAQs</Link></li> &nbsp;&nbsp;
+        <li className="nav-item btn btn-hover-secondary"><Link to="/aboutus" className="nav-link text-danger-emphasis">About</Link></li> &nbsp;&nbsp;
         <li className="nav-item btn btn-hover-secondary"><Link to="/countries" className="nav-link text-danger-emphasis">Countries</Link></li>
+        <li className="nav-item btn btn-hover-secondary"><Link to="/studentdetails" className="nav-link text-danger-emphasis">Student</Link></li> &nbsp;&nbsp;
+        <li className="nav-item btn btn-hover-secondary"><Link to="/employeedetails" className="nav-link text-danger-emphasis">Employee</Link></li> &nbsp;&nbsp;
       </ul>
     </header>
   </div>

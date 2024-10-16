@@ -11,8 +11,12 @@ function CountryDetails(){
             setAb({...data[0]}) })
     },[a.bname])
     return (<div className="container">
-           <h1>{a.bname}CountryDetails</h1>
-                <h1>{ab.population}</h1><br/>
+           <h1>CountryDetails:-{a.bname}</h1>
+                <h1>Population:-{ab.population}</h1>
+                <h1>Area:-{ab.area}</h1>
+                <h1>Capital:-{ab.capital}</h1>
+                <h1>Region:-{ab.region}</h1>
+                <h1>Sub-Region:-{ab.subregion}</h1>
                 {/* <img src={ab.flags[0]} alt="" width="400px"/>            */}
     </div>)
 }
