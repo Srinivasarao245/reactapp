@@ -52,14 +52,6 @@ const router = createBrowserRouter([
         element:<Employee></Employee>
       },
       {
-        path:"/counter",
-        element:<Counter></Counter>
-      },     
-      {
-        path:"/todos",
-        element:<Todos></Todos>
-      },
-      {
         path:"/countries",
         element:<Countries></Countries>,
         children:[{
