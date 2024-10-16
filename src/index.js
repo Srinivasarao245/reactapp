@@ -20,7 +20,7 @@ import CountryDetails from './Component/CountryDetails';
 import { Outlet } from 'react-router-dom';
 import Employee from './Component/Employee';
 import { Provider } from 'react-redux';
-import Store from './store/Store';
+import store from './store/store';
 
 const router = createBrowserRouter([
   {
@@ -50,6 +50,14 @@ const router = createBrowserRouter([
       {
         path:"/employeedetails",
         element:<Employee></Employee>
+      },
+      {
+        path:"/counter",
+        element:<Counter></Counter>
+      },
+      {
+        path:"/todos",
+        element:<Todos></Todos>
       },
       {
         path:"/countries",
