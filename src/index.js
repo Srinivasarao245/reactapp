@@ -17,7 +17,6 @@ import Faqs from './Component/Faqs';
 import Countries from './Component/Countries';
 import Student from './Component/Student';
 import CountryDetails from './Component/CountryDetails';
-import { Outlet } from 'react-router-dom';
 import Employee from './Component/Employee';
 import { Provider } from './react-redux';
 import store from './store/Store';
