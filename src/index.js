@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter, 
   RouterProvider,
-  Route,
-  Link,
+  // Route,
+  // Link,
 } from "react-router-dom";
 import Home from './Component/Home';
 import Price from './Component/Price';
@@ -19,8 +19,8 @@ import Student from './Component/Student';
 import CountryDetails from './Component/CountryDetails';
 import Employee from './Component/Employee';
 import { Provider } from './react-redux';
-import store from './store/Store';
-import Counter from './Component/Counter';
+import store from './Storee/Store';
+import Count from './Component/countrt';
 
 const router = createBrowserRouter([
   {
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/counter",
-        element:<Counter></Counter>
+        element:<Count></Count>
       },
       {
         path:"/countries",
