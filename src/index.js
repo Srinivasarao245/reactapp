@@ -18,9 +18,6 @@ import Student from './Component/Student';
 import CountryDetails from './Component/CountryDetails';
 import Employee from './Component/Employee';
 import { Provider } from './react-redux';
-import Count from './Component/countrt';
-
-
 
 
 const router = createBrowserRouter([
